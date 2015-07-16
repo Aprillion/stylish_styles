@@ -1,0 +1,10 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("stackoverflow.com") {
+  #adcontainer, .everyonelovesstackoverflow {
+    display: none !important;
+  }
+  .question-summary a:visited {
+    color: #99f !important;;
+  }
+}
